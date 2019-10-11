@@ -8,14 +8,13 @@
 </head>
 <body>
     <script>
-        let sum = 0
+        let sum = 1
         while(true){
-            let value =+prompt("Enter a numer", "")
+            let value =+prompt("Enter a number", "")
             if(!value)break;
-            sum += value
+            sum *= value
         }
-        alert ('Sum: ' +  sum )
-        alert ('product: *+')
+        alert ('product: ' + sum)
     </script>
 </body>
 </html>
